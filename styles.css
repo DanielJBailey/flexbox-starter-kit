@@ -21,19 +21,61 @@ button {
   color: #fff;
   background-color: #3F474E;
   padding: 20px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.nav-right {
+  display: flex;
+}
+
+.nav-right p:first-child {
+  margin-right: 40px;
 }
 
 .banner-container {
   background-color: #448ED1;
   color: #fff;
   height: 198px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.banner-container p {
+  font-size: 50px;
 }
 
 .box-container {
-
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+.box-container img {
+  margin: 0 20px;
+  box-shadow: 2px 4px 10px rgba(0,0,0,0.3);
 }
 
 .footer-container {
   background-color: #3F474E;
+  height: 204px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
   height: 204px;
 }
